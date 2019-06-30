@@ -1,0 +1,5 @@
+permalink: pretty
+plugins: [jekyll-paginate]
+paginate_path: "/photos/page:num/"
+paginate: 10
+highlighter: rouge

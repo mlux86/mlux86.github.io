@@ -1,0 +1,19 @@
+{% include header.html %}
+{% include penguin-sunglasses.html %}
+
+<div id="post">
+    <section class="content">
+        <h2>{{ page.title }}</h2>
+        {% if page.category == "posts" %}
+            <div class="readable">
+            {{ content }}
+            </div>
+        {% else %}
+            {{ content }}
+        {% endif %}
+    </section>
+</div>
+
+<div class="clear"></div>
+
+{% include footer.html %}

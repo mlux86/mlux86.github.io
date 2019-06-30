@@ -1,0 +1,43 @@
+---
+layout: post
+title: Photos
+---
+
+<section class="posts">
+
+	<p>
+		Here you can find some photos I shot. Whenever I find enough time to take my camera outside, I'll update this page.
+	</p>
+
+	<hr />
+
+	{% if site.categories.photos.size > 0 %}
+
+
+	<div id="photos-list" class="jscroll">
+		{% for photo in paginator.posts %}
+			{% if photo.category == "photos" %}
+			<div class="photo">
+				<img src="/photos/img/{{ photo.image }}.jpg" alt="{{ photo.title }}" />
+				<br />
+				{{ photo.date | date: "%B %d, %Y" }} &dash; {{ photo.title }}
+				<br />
+			</div>
+			{% endif %}
+		{% endfor %}
+
+		<!-- Pagination links -->
+		<div class="pagination">
+			{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path }}" class="next">&nbsp;</a>
+			{% else %}
+			<span class="next">&nbsp;</span>
+			{% endif %}
+		</div>
+	</div>
+
+	{% else %}
+		Nothing to see here...
+	{% endif %}
+
+</section>
