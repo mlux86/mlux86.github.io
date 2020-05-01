@@ -5,7 +5,7 @@ title: Markus Lux, Frankfurt am Main
 
 Hi, I'm Markus, computer scientist and software engineer.
 
-At Bielefeld University, I studied Intelligent Systems and did a PhD on the topic of applied machine learning for large scale single-cell data. My dissertation is available [here](https://pub.uni-bielefeld.de/publication/2919673).
+At Bielefeld University, I studied Intelligent Systems and did a PhD on the topic of applied machine learning for large scale single-cell data. My dissertation ([disputation slides](files/disputation.pdf)) is available [here](https://pub.uni-bielefeld.de/publication/2919673).
 
 As of September 2018, I am an engineer for function development at [Continental](https://www.continental-corporation.com/en) in Frankfurt am Main, being part of a team working on advanced driver assistance systems.
 
