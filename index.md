@@ -19,5 +19,5 @@ none">=AD"!fa</span>1.net
 
 <hr/>
 
-&raquo; [My small photo page](/photos)
+&raquo; [**My small photo page**](/photos)
 
