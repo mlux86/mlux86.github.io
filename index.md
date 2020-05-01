@@ -15,7 +15,7 @@ You may contact me via mail: m<span style="display: none">AS=)§("</span>l<span 
 none">dz8(-lq</span>u<span style="display: none">%$Wao</span>x@ml<span style="display:
 none">=AD"!fa</span>1.net
 
-[[Google Scholar](https://scholar.google.de/citations?user=qUFFeisAAAAJ)]   [[LinkedIn](https://www.linkedin.com/in/markus-lux-a88058107/)]   [[GitHub](https://github.com/mlux86)]
+[[Google Scholar](https://scholar.google.de/citations?user=qUFFeisAAAAJ)]   [[LinkedIn](https://www.linkedin.com/in/markus-lux-a88058107/)]   [[GitHub](https://github.com/mlux86)]   [[Strava](https://www.strava.com/athletes/34893363)]
 
 <hr/>
 
