@@ -7,16 +7,42 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="/jquery.jscroll.min.js"></script>
 	<script type="text/javascript">
-		$( document ).ready(function() {
+		$( document ).ready(function() 
+		{
 			if($('.jscroll').length)
 			{
-				$('.jscroll').jscroll({
+				$('.jscroll').jscroll(
+				{
 					contentSelector: '#photos-list',
 					nextSelector: 'a.next',
 					padding: 500,
 					loadingHtml: '<div align="center"><img src="/loading.gif" alt="Loading" /> Loading...</div>'
 				});
 			}
+
+			scrollCounter = -1;
+			$('body').keypress(function(evt) 
+			{
+				var n = $(".photo").length;
+
+				switch (evt.key) 
+				{
+					case 'j': scrollCounter++; break;
+					case 'k': scrollCounter--; break;
+					case 'g': scrollCounter = -1; break;
+					case 'G': scrollCounter = n-1; break;
+					default: ;
+				}
+
+				scrollCounter = Math.max(-1, scrollCounter);
+				scrollCounter = Math.min(n-1, scrollCounter);
+
+				var top = scrollCounter == -1 ? 0 : $(".photo").eq(scrollCounter).offset().top;
+				$([document.documentElement, document.body]).animate(
+				{
+					scrollTop: top
+				}, 0);
+			});
 		});
 	</script>
 </head>
