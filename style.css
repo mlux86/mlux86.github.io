@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 body {
     margin-left: 15px;
     font-family: Monospace;
@@ -23,18 +27,6 @@ a:hover {
     clear: both;
 }
 
-div#post a {
-    font-weight: bold;
-}
-
-.readable {
-    font-family: Helvetica,Arial,sans-serif;
-    line-height: 1.5em;
-    font-size: 18px;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
-}
-
 .photo {
     padding: 50px 25px;
     border-bottom: 1px dotted #aaa;
@@ -53,7 +45,7 @@ div.image caption {
     font-size: 12px;
 }
 
-#post-penguin {
+.penguin {
     float: left;
     width: 200px;
 }
@@ -62,15 +54,3 @@ div.image caption {
     float: left;
     width: 300px;
 }
-
-#posts-list {
-    float: left;
-    margin-left: 10px;
-    width: 650px;
-}
-
-#post {
-    float: left;
-    width: 700px;
-}
-
