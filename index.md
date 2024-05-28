@@ -12,7 +12,7 @@ You may contact me via mail: l<span style="display: none">AS=)§("</span><span s
 none">dz8(-lq</span>0<span style="display: none">%$Wao</span>x@ml<span style="display:
 none">=AD"!fa</span>1.net
 
-[[LinkedIn](https://www.linkedin.com/in/markus-lux-a88058107/)]   [[Google Scholar](https://scholar.google.de/citations?user=qUFFeisAAAAJ)]   [[GitHub](https://github.com/mlux86)]
+[[LinkedIn](https://www.linkedin.com/in/markus-lux-a88058107/)]   [[GitHub](https://github.com/mlux86)]
 
 <hr/>
 
