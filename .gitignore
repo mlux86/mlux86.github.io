@@ -3,4 +3,5 @@ homepage.sublime-workspace
 _site
 vendor
 .bundle
+.idea
 
